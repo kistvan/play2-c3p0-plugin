@@ -4,7 +4,7 @@ version := "0.2-SNAPSHOT"
 
 scalaVersion := "2.10.0"
 
-resolvers += "Typesafe releases" at "https://repo.typesafe.com/typesafe/releases"
+resolvers += "Typesafe releases" at "http://repo.typesafe.com/typesafe/releases"
 
 libraryDependencies ++= Seq(
 	 "com.mchange" % "c3p0" % "0.9.2-pre5",
